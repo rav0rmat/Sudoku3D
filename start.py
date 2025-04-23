@@ -13,12 +13,13 @@ os.system(f"jupyter nbconvert --execute --inplace {NOTEBOOK}")
 # Lansăm Voilà pe toate interfețele la portul corect
 print("🟢 Lansăm Voilà pe 0.0.0.0…")
 os.execvp("voila", [
-    "voila",
-    NOTEBOOK,
-    "--port", PORT,
-    "--ip", "0.0.0.0",
-    "--no-browser",
-    "--theme", "dark",
-    "--strip_sources", "True"
+  "voila",
+  "Sudoku_3D_Voila_Final.ipynb",
+  "--port", PORT,
+  "--no-browser",
+  "--Voila.ip=0.0.0.0",
+  "--strip_sources=True",
+  "--theme=dark"
 ])
+
 

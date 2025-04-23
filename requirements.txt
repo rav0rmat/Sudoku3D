@@ -1,5 +1,9 @@
+## `requirements.txt`
+```
 voila
-notebook
 ipywidgets
 plotly
 numpy
+nbconvert
+openai
+```

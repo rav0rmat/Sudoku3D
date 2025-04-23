@@ -1,5 +1,5 @@
 ## `test_notebook.py`
-```python
+python
 import subprocess, sys
 NOTEBOOK = "Sudoku_3D_UI.ipynb"
 ERROR_LOG = "error.log"
@@ -12,4 +12,4 @@ else:
     print("❌ Eroare")
     open(ERROR_LOG,"wb").write(res.stderr)
     sys.exit(1)
-```
+

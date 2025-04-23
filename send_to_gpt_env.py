@@ -1,5 +1,5 @@
 ## `send_to_gpt_env.py`
-```python
+python
 import openai, os
 NOTEBOOK="Sudoku_3D_UI.ipynb"; ERROR_LOG="error.log"; OUTPUT="Sudoku3D_Fixed.ipynb"
 openai.api_key=os.environ.get("OPENAI_API_KEY")
@@ -10,4 +10,4 @@ resp=openai.ChatCompletion.create(model="gpt-4", messages=[{"role":"user","conte
 fixed=resp.choices[0].message.content
 open(OUTPUT,"w").write(fixed)
 print(f"✅ GPT a returnat {OUTPUT}")
-```
+

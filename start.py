@@ -1,5 +1,5 @@
 ## `start.py`
-```python
+python
 import os
 import sys
 NOTEBOOK = "Sudoku_3D_UI.ipynb"
@@ -15,4 +15,4 @@ os.execvp("voila", [
     "--strip_sources=True",
     "--theme=dark"
 ])
-```
+

@@ -1,5 +1,5 @@
 ## `auto_repair_pipeline.sh`
-```bash
+bash
 #!/usr/bin/env bash
 set -e
 # 1 pull
@@ -13,4 +13,4 @@ mv Sudoku3D_Fixed.ipynb Sudoku_3D_UI.ipynb
 git add Sudoku_3D_UI.ipynb
 git commit -m "Auto-fix by GPT"
 git push
-```
+

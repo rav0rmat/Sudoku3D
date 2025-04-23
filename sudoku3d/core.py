@@ -1,6 +1,6 @@
 ## `sudoku3d/core.py`
 
-```python
+python
 import numpy as np
 import copy
 import plotly.graph_objects as go
@@ -114,4 +114,4 @@ def draw_board(board: np.ndarray, initial_board: np.ndarray, highlight: tuple=No
                                  zaxis=dict(range=[-.5,3.5)]),
                       margin=dict(l=0,r=0,b=0,t=0),height=800)
     return fig
-```
+

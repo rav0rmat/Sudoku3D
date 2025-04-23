@@ -1,1 +1,1 @@
-web: python3 start.py
+web: voila Sudoku3D_Curat_Voila_Final.ipynb --port=$PORT --no-browser --Voila.configuration='' --strip_sources=True
